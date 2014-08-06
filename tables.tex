@@ -1,0 +1,179 @@
+\documentclass{article}
+\usepackage[cm]{fullpage}
+\usepackage{dcolumn}
+\usepackage{lscape}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{table}[!htbp] \centering 
+  \caption{Logit Estimates of Whether R Believes Their Favorite Team Will Win a Close Game} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Top Team Will Win Close: 1 = Yes, 0 = No \\ 
+\hline \\[-1.8ex] 
+ likelytowatch & 1.398$^{***}$ \\ 
+  & (0.175) \\ 
+  & \\ 
+ NFLattn & 0.702$^{***}$ \\ 
+  & (0.162) \\ 
+  & \\ 
+ sportstalk & $-$0.167 \\ 
+  & (0.185) \\ 
+  & \\ 
+ age & 0.006 \\ 
+  & (0.009) \\ 
+  & \\ 
+ edu & $-$0.066 \\ 
+  & (0.086) \\ 
+  & \\ 
+ female & $-$0.565$^{**}$ \\ 
+  & (0.265) \\ 
+  & \\ 
+ whitenonhisp & 0.209 \\ 
+  & (0.416) \\ 
+  & \\ 
+ Constant & $-$4.555$^{***}$ \\ 
+  & (0.692) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 620 \\ 
+Log Likelihood & $-$209.300 \\ 
+Akaike Inf. Crit. & 434.600 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\normalsize 
+\end{tabular} 
+\end{table}
+
+
+
+
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Logit Estimates of Whether R Thinks Their Favored Pres. Candidate Will Win a Close Election} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & Obama Wins Close: & Romney Wins Close: & Obama Wins Close: & Romney Wins Close: \\ 
+\\[-1.8ex] \multicolumn{4}{c}{0 = No, 1 = Yes} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ informed & 0.127 & 0.603$^{**}$ & 0.022 & 0.489$^{**}$ \\ 
+  & (0.223) & (0.255) & (0.186) & (0.211) \\ 
+  & & & & \\ 
+ othersinformed & 0.277$^{**}$ & 0.143 & 0.239$^{**}$ & 0.022 \\ 
+  & (0.124) & (0.133) & (0.107) & (0.114) \\ 
+  & & & & \\ 
+ libideo & 0.425$^{***}$ & $-$0.005 & 0.418$^{***}$ & $-$0.053 \\ 
+  & (0.138) & (0.155) & (0.123) & (0.131) \\ 
+  & & & & \\ 
+ dem & 1.069$^{***}$ & $-$1.340$^{***}$ & 1.144$^{***}$ & $-$1.190$^{***}$ \\ 
+  & (0.295) & (0.407) & (0.257) & (0.347) \\ 
+  & & & & \\ 
+ rep & $-$0.017 & 0.877$^{***}$ & 0.018 & 0.696$^{***}$ \\ 
+  & (0.367) & (0.323) & (0.310) & (0.269) \\ 
+  & & & & \\ 
+ age & 0.023$^{***}$ & 0.020$^{**}$ & 0.020$^{***}$ & 0.006 \\ 
+  & (0.009) & (0.010) & (0.007) & (0.008) \\ 
+  & & & & \\ 
+ edu & 0.094 & 0.020 & 0.072 & $-$0.032 \\ 
+  & (0.089) & (0.097) & (0.078) & (0.084) \\ 
+  & & & & \\ 
+ female & $-$0.559$^{**}$ & 0.453 & $-$0.593$^{***}$ & 0.283 \\ 
+  & (0.268) & (0.289) & (0.225) & (0.239) \\ 
+  & & & & \\ 
+ whitenonhisp & $-$0.665 & $-$0.513 & $-$0.510 & $-$0.496 \\ 
+  & (0.438) & (0.407) & (0.358) & (0.336) \\ 
+  & & & & \\ 
+ favewinsclosegame & 0.489 & 0.146 &  &  \\ 
+ (Y from Table 1) & (0.309) & (0.311) &  &  \\ 
+  & & & & \\ 
+ Constant & $-$3.169$^{***}$ & $-$2.973$^{***}$ & $-$2.685$^{***}$ & $-$1.503$^{**}$ \\ 
+  & (0.758) & (0.820) & (0.638) & (0.645) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 355 & 348 & 466 & 452 \\ 
+Log Likelihood & $-$195.288 & $-$180.467 & $-$259.709 & $-$247.543 \\ 
+Akaike Inf. Crit. & 412.576 & 382.934 & 539.419 & 515.086 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\normalsize 
+\end{tabular} 
+\end{table} 
+
+
+
+
+
+
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Logit Estimates of Whether R Thinks Favored House Candidate Will Win a Close Election} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & Dem Wins Close: & Rep Wins Close: & Dem Wins Close: & Rep Wins Close: \\ 
+\\[-1.8ex] \multicolumn{4}{c}{0 = No, 1 = Yes} \\
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ informed & $-$0.195 & 0.533$^{*}$ & $-$0.205 & 0.434 \\ 
+  & (0.268) & (0.319) & (0.229) & (0.269) \\ 
+  & & & & \\ 
+ othersinformed & $-$0.196 & 0.218 & $-$0.102 & 0.211 \\ 
+  & (0.165) & (0.163) & (0.141) & (0.138) \\ 
+  & & & & \\ 
+ libideo & 0.290$^{*}$ & $-$0.822$^{***}$ & 0.209 & $-$0.663$^{***}$ \\ 
+  & (0.166) & (0.208) & (0.147) & (0.172) \\ 
+  & & & & \\ 
+ dem & 1.042$^{***}$ & $-$0.526 & 0.893$^{***}$ & $-$0.484 \\ 
+  & (0.378) & (0.482) & (0.327) & (0.425) \\ 
+  & & & & \\ 
+ rep & $-$0.742 & 0.146 & $-$0.564 & 0.559$^{*}$ \\ 
+  & (0.524) & (0.403) & (0.433) & (0.330) \\ 
+  & & & & \\ 
+ age & 0.027$^{**}$ & 0.011 & 0.021$^{**}$ & 0.007 \\ 
+  & (0.011) & (0.012) & (0.010) & (0.010) \\ 
+  & & & & \\ 
+ edu & 0.034 & $-$0.073 & $-$0.033 & $-$0.063 \\ 
+  & (0.111) & (0.118) & (0.098) & (0.102) \\ 
+  & & & & \\ 
+ female & $-$0.300 & $-$0.129 & $-$0.281 & 0.021 \\ 
+  & (0.327) & (0.355) & (0.276) & (0.300) \\ 
+  & & & & \\ 
+ whitenonhisp & 0.502 & 0.272 & 0.383 & 0.588 \\ 
+  & (0.542) & (0.595) & (0.453) & (0.521) \\ 
+  & & & & \\ 
+ favewinsclosegame & 0.977$^{***}$ & 0.124 &  &  \\ 
+ (Y from Table 1) & (0.352) & (0.394) &  &  \\ 
+  & & & & \\ 
+ Constant & $-$4.248$^{***}$ & $-$2.190$^{**}$ & $-$3.328$^{***}$ & $-$2.590$^{***}$ \\ 
+  & (0.970) & (1.071) & (0.788) & (0.902) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 402 & 367 & 522 & 488 \\ 
+Log Likelihood & $-$142.732 & $-$122.746 & $-$191.755 & $-$168.453 \\ 
+Akaike Inf. Crit. & 307.465 & 267.491 & 403.510 & 356.906 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\normalsize 
+\end{tabular} 
+\end{table} 
+
+
+\end{document} 

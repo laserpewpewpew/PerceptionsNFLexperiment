@@ -154,3 +154,4 @@ glm7 <- glm(twoclose ~ informed + othersinformed + libideo + dem + rep + age + e
 glm8 <- glm(oneclose ~ informed + othersinformed + libideo + dem + rep + age + edu + female + whitenonhisp ,family=binomial, data=mydata)
 glm9 <- glm(twoclose ~ informed + othersinformed + libideo + dem + rep + age + edu + female + whitenonhisp ,family=binomial, data=mydata)
 stargazer(glm6, glm7, glm8, glm9)
+

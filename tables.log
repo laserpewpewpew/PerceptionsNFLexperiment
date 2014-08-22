@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.19)  6 AUG 2014 12:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.19)  22 AUG 2014 14:17
 entering extended mode
 **tables.tex
 (C:\Users\kellengracey\Documents\PerceptionsNFLexperiment\tables.tex
@@ -77,6 +77,18 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -108,10 +120,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 12.
- [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-(C:\Users\kellengracey\Documents\PerceptionsNFLexperiment\tables.aux)
+Overfull \hbox (32.64766pt too wide) in paragraph at lines 196--246
+ [][] 
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5]
+[6] [7] (C:\Users\kellengracey\Documents\PerceptionsNFLexperiment\tables.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -119,7 +134,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1101 strings out of 493921
  14774 string characters out of 3144855
- 86305 words of memory out of 3000000
+ 124305 words of memory out of 3000000
  4440 multiletter control sequences out of 15000+200000
  3986 words of font info for 15 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -129,9 +144,9 @@ Here is how much of TeX's memory you used:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on tables.pdf (3 pages, 60498 bytes).
+Output written on tables.pdf (7 pages, 67548 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
